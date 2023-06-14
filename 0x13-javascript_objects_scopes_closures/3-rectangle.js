@@ -1,5 +1,5 @@
 #!/usr/bin/node
-module.exports = class Rectangle to 0 or not a positive integer {
+module.exports = class {
   constructor (w, h) {
     // If w or h is object
     if (w > 0 && h > 0) {
