@@ -1,5 +1,5 @@
 #!/usr/bin/node
-module.exports = class Rectaequal to 0 or not a positive integer, create emptyngle {
+module.exports = class Rectangle to 0 or not a positive integer {
   constructor (w, h) {
     // If w or h is object
     if (w > 0 && h > 0) {
@@ -9,8 +9,8 @@ module.exports = class Rectaequal to 0 or not a positive integer, create emptyng
   }
 
   print () {
-    for (let q = 0; q < this.height; q++) {
-      for (let r = 0; r < this.width; r++) {
+    for (let i = 0; i < this.height; i++) {
+      for (let j = 0; j < this.width; j++) {
         process.stdout.write('X');
       }
       if (q < this.height) { process.stdout.write('\n'); }
